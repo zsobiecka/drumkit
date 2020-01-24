@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--Title-->
+    <title>Drum set</title>
+  </head>
+  <body>
+    <main>
+      <di class="drumkeys">
+        <div data-key="65" class="drumkey">
+          <kbd>A</kbd>
+          <p class="sound">CLAP</p>
+        </div>
+        <div data-key="83" class="drumkey">
+          <kbd>S</kbd>
+          <p class="sound">HIHAT</p>
+        </div>
+        <div data-key="68" class="drumkey">
+          <kbd>D</kbd>
+          <p class="sound">KICK</p>
+        </div>
+        <div data-key="70" class="drumkey">
+          <kbd>F</kbd>
+          <p class="sound">OPENHAT</p>
+        </div>
+        <div data-key="71" class="drumkey">
+          <kbd>G</kbd>
+          <p class="sound">BOOM</p>
+        </div>
+        <div data-key="72" class="drumkey">
+          <kbd>H</kbd>
+          <p class="sound">RIDE</p>
+        </div>
+        <div data-key="74" class="drumkey">
+          <kbd>J</kbd>
+          <p class="sound">SNARE</p>
+        </div>
+        <div data-key="75" class="drumkey">
+          <kbd>K</kbd>
+          <p class="sound">TOM</p>
+        </div>
+        <div data-key="76" class="drumkey">
+          <kbd>L</kbd>
+          <p class="sound">TINK</p>
+        </div>
+      </div>
+
+      <audio data-key="65" src="sounds/clap.wav"></audio>
+      <audio data-key="83" src="sounds/hihat.wav"></audio>
+      <audio data-key="68" src="sounds/kick.wav"></audio>
+      <audio data-key="70" src="sounds/openhat.wav"></audio>
+      <audio data-key="71" src="sounds/boom.wav"></audio>
+      <audio data-key="72" src="sounds/ride.wav"></audio>
+      <audio data-key="74" src="sounds/snare.wav"></audio>
+      <audio data-key="75" src="sounds/tom.wav"></audio>
+      <audio data-key="76" src="sounds/tink.wav"></audio>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <script src="main.js">
+    
+    </script>
+  </body>
+</html>
+
+<!--
+     <main>
+      <audio id="drumkey">
+        <source src="boom.wav" type="audio/wav" />
+        A
+      </audio>
+-->
